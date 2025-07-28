@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Law Portfolio - Jane Doe</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdf5e6;
+      color: #4b2e1e;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem;
+      background-color: #f7e3c9;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #4b2e1e;
+      font-weight: 600;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .hero-text {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .hero-text h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-text p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      color: #333;
+    }
+
+    .hero img {
+      flex: 1;
+      max-width: 300px;
+      margin-top: 1rem;
+    }
+
+    button {
+      background-color: #9b6b43;
+      color: white;
+      padding: 0.8rem 1.6rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    h3 {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      color: #4b2e1e;
+    }
+
+    .services ul {
+      list-style-type: square;
+      margin-left: 1.2rem;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #f7e3c9;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Law Firm</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Experienced Legal Representation</h2>
+      <p>Providing personalized and effective legal solutions for individuals and businesses. Let us fight for your rights with integrity and expertise.</p>
+      <button>Learn More</button>
+    </div>
+    <img src="hammer.png" alt="Law 3D icon">
+  </section>
+
+  <section id="about">
+    <h3>About</h3>
+    <p>Welcome to my legal portfolio. I’m Jane Doe, a licensed attorney with over 10 years of experience in civil, criminal, and corporate law. I have worked with clients across various sectors to deliver impactful legal results.</p>
+    <img src="lawyer.png" alt="3D Lawyer Icon" style="max-width:150px;margin-top:1rem;">
+  </section>
+
+  <section id="services" class="services">
+    <h3>Services</h3>
+    <ul>
+      <li>Contract Drafting and Review</li>
+      <li>Litigation & Dispute Resolution</li>
+      <li>Business Law Consulting</li>
+      <li>Criminal Defense</li>
+      <li>Family & Divorce Law</li>
+    </ul>
+    <img src="compliant.png" alt="3D legal document" style="max-width:150px;margin-top:1rem;">
+  </section>
+
+  <section id="contact">
+    <h3>Contact Us</h3>
+    <p>If you'd like to work with me or have questions about legal services, feel free to reach out using the form below:</p>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Law firm - Legal Portfolio. All rights reserved. Designed by <a href="<a href="https://henleykurubel.github.io/DoodleDesigns/">Doodle Designs</a>
+  </footer>
+
+</body>
+</html>
+
